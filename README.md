@@ -1,11 +1,10 @@
-py -3 -m venv venv
-venv\Scripts\activate
+``` sh
+$ py -3 -m venv venv
+$ venv\Scripts\activate
 
-pip install Flask
+$ pip install Flask
 
-set FLASK_APP=flaskr
-set FLASK_ENV=development
-flask run
-
-
-pip install pyclean
+$ set FLASK_APP=flaskr
+$ set FLASK_ENV=development
+$ flask run
+```
